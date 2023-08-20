@@ -1,0 +1,199 @@
+/* 전체 페이지 스타일 */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+textarea {
+    max-width: 600px;
+    width: 100%;
+}
+
+.input-text {
+    border: none;
+    border-radius: 5px;
+}
+
+/* 상단 Navbar 스타일 */
+.navbar-container {
+    background-color: #4CAF50;
+    max-width: 600px;
+    margin: 20px auto;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+}
+
+/* Navbar 버튼 스타일 */
+.navbar-container button {
+    margin: 5px;
+    padding: 8px 16px;
+    font-size: 16px;
+    background-color: #f5f5f5;
+    color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* 게시글 작성 영역 스타일 */
+.post-container {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    /* justify-content: space-around; */
+    /* text-align:center; */
+}
+
+.post-container span {
+    display: block;
+    margin: 5px 20px;
+    font-size: 15px;
+}
+
+.post-filter {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 20px;
+    margin-top: 20px;
+}
+
+.user-profile {
+    display: flex;
+    justify-content: space-between;
+}
+
+.post-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.post-info button {
+    margin-top: 10px;
+}
+
+/* 사진 미리보기 영역 스타일 */
+.image-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.image-container .image {
+    width: 23%;
+    height: 80px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+}
+
+/* 사진 및 글쓰기 버튼 영역 스타일 */
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.button-container button {
+    padding: 8px 16px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* 다른 사람이 작성한 글 스타일 */
+.feed-container {
+    background-color: #fff;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.feed-container .user-info {
+    /* background-color: #4CAF50; */
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+
+}
+
+.feed-container .user-info img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+
+.profile-image {
+    width: 10%;
+    height: auto;
+}
+
+.feed-image {
+    background-color: #4CAF50;
+    width: 70%;
+    height: auto;
+}
+
+/* 좋아요 버튼 스타일 */
+.btn {
+    padding: 8px 16px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.sign-wrap {
+    /* background-color: rebeccapurple; */
+    max-width: 600px;
+    margin: 20px auto;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sign-container {
+    background-color: #65ba6b;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.sign-login {
+    flex-direction: column;
+    align-items: center;
+}
+
+.sign-login span {
+    /* background-color: aliceblue; */
+    color: #fff;
+    display: block;
+    margin-top: 10px;
+}
+
+.sign-btn {
+    /* background-color: aquamarine; */
+    margin-top: 50px;
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+
+
+}
