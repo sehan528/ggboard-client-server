@@ -11,6 +11,8 @@ const config = {
 		// files: {
 		// 	assets: 'src',
 		// },
+		
+
 	}
 };
 
